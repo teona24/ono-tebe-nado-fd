@@ -1,1 +1,41 @@
-/* место для вашего кода */
+header {
+    background-color: aquamarine;
+    height: 293px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+/* прочитать про добавление шрифта и добавть запас */    
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 100%;
+    letter-spacing: 0%;   
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    width: 391.48px;
+    height: 22px;
+    margin: 133px 36.52px 138px 50px;
+    list-style-type: circle;
+}
+
+.no-circle {
+    list-style-type: none;
+}
+.logo-black {
+    width: 148px;
+    height: 105px;
+    margin: 92px 0 96px 0;
+}
+.logo-black img {
+    width: 129.11px;
+    height: 104.65px;
+}
+.address-header {
+    width: 240px;
+    height: 98px;
+    margin: 95px 50px 100px 0;
+    text-decoration: underline;
+}
