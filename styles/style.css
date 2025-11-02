@@ -88,8 +88,7 @@ header {
 .overlay {
     width: 1100px;
     height: 757px;
-    background-color: rgba(0, 0, 0);
-    opacity: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     z-index: 1;
 }
@@ -141,7 +140,6 @@ h1 {
     position: absolute;
     margin: 656px 50px 50px 50px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-family: 'Raleway', sans-serif;
@@ -156,12 +154,13 @@ h1 {
     word-spacing: 18px;
 }
 
+.word-space-one {
+    word-spacing: 19px;
+}
+
 .button-cover {
     width: 256px;
     height: 51px;
-    display: inline-flex;
-    align-items: center;
-    padding: 11px 31px 10px 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 22px;
