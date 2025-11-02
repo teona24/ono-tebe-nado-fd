@@ -1,29 +1,29 @@
-body{
+body {
     color: rgba(0, 0, 0, 1);
     background-color: rgba(255, 255, 255, 1);
 }
 
 header {
-    width: 100%;
+    width: 1100px;
     height: 293px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     padding: 92px 50px 96px 50px;
 }
 
 .menu-header {
     display: flex;
-    justify-content: space-between;
+    gap: 34px;
     align-items: center;
     width: 391.48px;
     height: 22px;
     margin: 41px 36.52px 42px 0;
     list-style-type: circle;
-    letter-spacing: 0; 
+    letter-spacing: 0;
 }
 
 .no-marker {
@@ -40,14 +40,24 @@ header {
 }
 
 .logo-black {
+    display: block;
     width: 148px;
     height: 105px;
     padding: 1.16px 9.86px 0.81px 9.03px;
 }
 
+.logo-black img {
+   width: 129.11px;
+   height: 104.65px;
+}
+
 .address-header {
-    width: 240px;
+    max-width: 240px;
     height: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: end;
     margin: 3px 0 4px 184px;
     line-height: 24.3px;
     font-style: normal;
@@ -72,7 +82,7 @@ header {
 }
 
 .cover img {
-    min-height: 757px; 
+    min-height: 757px;
 }
 
 .overlay {
@@ -93,7 +103,7 @@ h1 {
     z-index: 2;
     position: absolute;
     margin: 165px 50px 0 50px;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 100px;
     line-height: 115px;
@@ -106,6 +116,7 @@ h1 {
     height: 115px;
     text-align: left;
     justify-self: start;
+    align-self: flex-start;
 }
 
 .tebe {
@@ -120,6 +131,7 @@ h1 {
     height: 115px;
     text-align: right;
     justify-self: end;
+    align-self: flex-end;
 }
 
 .description {
@@ -132,7 +144,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
@@ -150,7 +162,7 @@ h1 {
     display: inline-flex;
     align-items: center;
     padding: 11px 31px 10px 30px;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 22px;
     letter-spacing: 0;
