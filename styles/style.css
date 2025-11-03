@@ -70,12 +70,11 @@ header {
 .cover {
     color: rgba(255, 255, 255, 1);
     min-height: 757px;
+    background-image: url(/images/cover.jpg);
     position: relative;
     z-index: -1;
-}
-
-.cover img {
-    min-height: 757px;
+    background-size: cover;
+    background-position: center;
 }
 
 .overlay {
@@ -86,7 +85,7 @@ header {
     z-index: 1;
 }
 
-h1 {
+.title-h-one {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -168,7 +167,7 @@ h1 {
 .lots {
     width: 1052px;
     height: 723px;
-    margin: 180px 24px 120px 24px;
+    margin: 180px 24px 0 24px;
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -180,8 +179,7 @@ h1 {
     font-size: 40px;
     width: 121px;
     height: 47px;
-    line-height: 100%;
-    margin: 0 891px 24px 40px;
+    margin: 0 891px 27px 40px;
 }
 
 .lots__card-list {
@@ -214,7 +212,7 @@ h1 {
 }
 
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg); 
+    background-image: url(/images/card-lot-01.jpg);
 }
 
 .card_type_book {
@@ -251,7 +249,7 @@ h1 {
 .card__text {
     width: 100%;
     padding: 0 40px 48px 40px;
-    font-family: 'Ralway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -261,12 +259,60 @@ h1 {
 }
 
 .lots__look-more-link {
-    font-family: 'Ralway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
-    margin: 30px 820px 2px 40px;
+    margin: 30px 820px 0 40px;
     line-height: 100%;
     justify-self: center;
-    letter-spacing: 0.4px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.about {
+    width: 1052px;
+    height: 595px;
+    margin: 120px 24px 0 24px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.about-logo {
+    margin: 35px 72px 320px 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+}
+
+.about-logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+.about-column {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 693px;
+    height: 449px;
+    margin: 133px 0 13px 0;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    display: grid;
+    font-weight: 400;
+    font-size: 20px;
+    gap: 22px;
 }
