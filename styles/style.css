@@ -240,13 +240,13 @@ header {
 
 .about {
   width: 1052px;
-  margin: 120px 24px 0 24px;
+  margin: 120px 24px 180px 24px;
   display: grid;
   grid-template-columns: auto 1fr;
 }
 
 .about-logo {
-  margin: 35px 72px 320px 47px;
+  margin: 35px 72px 0 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -263,7 +263,6 @@ header {
 
 .about-column {
   display: grid;
-  grid-template-rows: 1fr 2fr;
   width: 693px;
   margin: 133px 0 5px 0;
   font-family: "Raleway", sans-serif;
@@ -280,9 +279,9 @@ header {
 .about-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   font-weight: 400;
   font-size: 20px;
+  gap: 30px;
 }
 
 .footer {
@@ -293,7 +292,6 @@ header {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
-  margin-top: 180px;
 }
 
 .address-footer {
